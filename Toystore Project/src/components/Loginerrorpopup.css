@@ -1,0 +1,18 @@
+.popup1{
+    color: black;
+    background-color: rgba(255, 0, 0, 0.371);
+    border-radius: 10px;
+    padding:10px 40px;
+    position: fixed;
+    bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.popup-inner1{
+    display: flex;
+    float: left;
+}
+.success{
+    
+    color: black;
+    margin-bottom: 10px;
+}

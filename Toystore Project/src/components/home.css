@@ -1,0 +1,295 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubantu,sans-serif; */
+}
+
+
+
+/*------------------------------------------- NAVBAR----------------------------------------------------------------- */
+a{
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+#navbar{
+    background-color:whitesmoke;
+}
+.brand{
+    font-family: 'Shantell Sans', cursive;
+    color: #E95144;
+    margin-top: 23px;
+    margin-right: 5px;
+
+}
+h4{
+    font-weight: 500;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-size:  18px;
+    padding: 5px;
+    
+}
+h4:hover{
+    color: #190482;
+    border-bottom:1.5px solid black;
+    
+}
+
+@media (400px<= width <= 600px)
+{
+
+}
+#navbar-bt{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.navbar-bt{
+
+    background-color: #e7bd52;
+    padding: 0.3rem 1rem;
+    
+    
+}
+
+
+/*------------------------------------------- SLOGON DIV ---------------------------------------------------------- */
+
+
+.legoshop{
+    background-image:linear-gradient(rgba(156,119,226,0),rgba(0,0,0,0.6)), url(./SlogonDivImg/toypurle.jpg);
+    background-position:center;
+    background-size:cover;
+    text-align: left;
+    height: 70vh;
+    margin-top: 100px;
+    width: 100%;
+    
+}
+.slogon{
+    
+    margin:10px 0 0 100px;
+    padding-top: 170px;
+}
+.legoshop h1{
+    
+    color: gold;
+    font-size: 45px;
+    
+}
+.shop-btn{
+    padding: 0;
+    margin: 40px 100px;
+}
+
+
+@media (400px<= width <= 600px)
+{
+    .slogon, .shop-btn{
+        margin-left: 50px;
+    }
+}
+
+@media (0px<= width <= 399px)
+{
+  .slogon{
+    margin: 0;
+    padding: 20% 0 0 10%;
+  }
+  .slogon h1{
+    font-size: 30px;
+  }
+  .shop-btn{
+    margin: 0 0 0 10%;
+  }
+}
+
+
+/* ------------------------------------------------ SHOP BY AGE ------------------------------------------------- */
+
+
+.kiddo{
+    width: 170px;
+    height: 170px;
+}
+.kiddo:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transform: scale(1.02);
+    
+}
+.grid{
+    margin-top: 40px;
+    
+}
+.shopby-age{
+    height: auto;
+}
+.shopby-age h1{
+    margin-top: 25px;
+}
+@media (601px<= width <=899px)
+{
+    .shopby-age{
+      height: 45rem;
+    }
+  
+}
+ @media (400px<= width <= 899px)
+{
+    .shopby-age{
+        height: 45rem;
+    }
+}
+@media (0px<= width <= 399px)
+{
+    .shopby-age{
+        height: 40rem;
+    }
+}
+@media (900px<= width <=1200px)
+{
+    .shopby-age{
+      height: 30rem;
+    }
+  
+}
+
+
+
+/*  -------------------------------------------- LEGO STORE -------------------------------------------------------- */
+
+
+
+.lego-store{
+    margin-top: 85px;
+    height: auto;
+    width: 100%;
+    background-color:#aa92db;
+    padding: 0 2rem 5rem 2rem;
+    
+    
+    
+}
+.lego{
+    margin-top: 30px;
+   
+}
+.lego:hover{
+    transform: scale(1.05);
+}
+/* @media (400px<= width <= 470px)
+{
+    .lego-grid{
+        
+        margin-left: 13%;
+        
+    }
+    .lego-store{
+        height: 112rem;
+        
+    }
+}
+@media (471px<= width <= 499px)
+{
+    .lego-grid{
+        
+        padding-left: 3.6rem;
+        
+    }
+    .lego-store{
+        height: 112rem;
+        
+    }
+}
+
+@media (500px<= width <= 539px)
+{
+    .lego-grid{
+       
+        margin-left: 16%;
+        
+    }
+    .lego-store{
+        height: 112rem;
+        
+    }
+}
+@media (540px<= width <= 585px)
+{
+    .lego-grid{
+       
+        margin-left: 19%;
+        
+    }
+    .lego-store{
+        height: 112rem;
+        
+    }
+}
+@media (586px<= width <= 600px)
+{
+    .lego-grid{
+       
+        margin-left: 22%;
+        
+    }
+    .lego-store{
+        height: 112rem;
+        
+    }
+}
+@media (0px<= width <= 399px)
+{
+  .lego-store{
+    height: 112rem;
+    
+  }
+  .lego-grid{
+    margin-left: 8%;
+  }
+}
+@media (900px<= width <=1200px)
+{
+    
+    .lego-store{
+        height: 60rem;
+        
+      }
+    .lego-grid{
+        margin-left:9rem;
+    }
+
+  
+} */
+
+
+/* --------------------------------------------------------- POPULAR BRANDS  --------------------------------------------------- */
+
+
+
+
+.brandname{
+    width: 90px;
+    height: 90px;
+    border-radius: 0;
+}
+.toy-brand{
+    display: flex;
+    float: left;
+}
+.branditem{
+    
+    margin: 10px;
+}
+.featurebrands{
+    height: 20rem;
+}
+ @media (0px<= width <=899px)
+{
+    .featurebrands{
+        height: 25rem;
+    }
+  
+} 

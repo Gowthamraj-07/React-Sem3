@@ -1,0 +1,31 @@
+.img-div{
+   height: 65vh;
+    background-image: url('./LegoPage/LegoIntroImg.jpg');
+    background-size: 80rem;
+    background-position: top;
+    margin-top: 80px;
+    
+}
+
+.feature-div img{
+    border-radius: 0;
+    width: 110px;
+    margin-bottom: 10px;
+}
+.carosel-lego img{
+    border-radius: 0;
+}
+.ninjago{
+    background-image: url('./LegoPage/Ninjabanner.webp');
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+}
+.toy-grid-div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.toy-grid-div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+

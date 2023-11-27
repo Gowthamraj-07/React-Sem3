@@ -1,0 +1,133 @@
+.logpage{
+   
+    height: 100vh;
+    
+    background-image:linear-gradient(rgba(156,119,226,0),rgba(0,0,0,0.7)),url(LoginPageImg/toypurle.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.detail{
+   
+    border-radius: 20px;
+    border: 0;
+    padding: 19px;
+    width: 350px;
+    margin-bottom: 20px;
+    background-color: white;
+    background: rgba(255, 255, 255, .2)
+    
+}
+.head{
+    font-family: 'Kristi', cursive;
+
+}
+input{
+    color: white;
+}
+input:focus{
+    outline-color: blue;
+}
+.detail:hover{
+background: rgba(255, 255, 255, .23);
+}
+::placeholder{
+    color: white;
+    font-size: 15px;
+}
+h1{
+    margin-top: 0;
+    color: white;
+}
+h3{
+    margin: 0;
+    color: white;
+}
+h4{
+    margin: 0;
+    margin-top: 4px;
+    color: rgb(38, 36, 36);
+    font-weight: 500;
+}
+
+.submit{
+    width: 380px;
+    border-radius: 20px;
+    border: 0;
+    padding: 19px;
+
+}
+.remember{
+    margin-top: 14px;
+    position: relative;
+    
+    color: white;
+    
+}
+#forgot{
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.614);
+
+}
+label{
+    margin-left: 3px;
+}
+.altersignin div{
+    background-color: white;
+    height: 40px;
+    width: 177px;
+   margin: 20px 17px;
+    display: flex;
+    border-radius: 15px;
+    float: left;
+    
+}
+.altersignin div:hover{
+    background-color:rgba(255, 255, 255, 0.8); ;
+}
+img{
+    border-radius: 100px;
+    
+}
+#google{
+    height: 25px;
+    margin: 7px;
+}
+#fb{
+    height: 33px;
+    margin: 4px;
+    margin-left: 6px;
+    margin-right: 0;
+}
+.alterlog{
+    font-size: small;
+    margin-top: 7px;
+}
+.icon{
+    position: absolute;
+    right: 570px;
+    margin-top: 14px;
+    background: rgba(0,0,0,0);
+    border: none;
+    
+}
+.icon:hover{
+    color: aliceblue;
+
+}
+.reg{
+    width: 150px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
